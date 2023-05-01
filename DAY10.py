@@ -8,6 +8,9 @@ from selenium.webdriver.common.keys import Keys
 from datetime import datetime,date
 
 driver= webdriver.Chrome()
+
+
+
 driver.maximize_window()
 driver.get(r"file:///C:/Users/NAVA/Downloads/Locator%20Practice/Locator%20Practice/locatorPractice.html")
 # datepicker/calender
@@ -70,3 +73,4 @@ fileupload=driver.switch_to.alert
 fileupload.accept()
 time.sleep(5)
 driver.quit()
+print("text"  )
